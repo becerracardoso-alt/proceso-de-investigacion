@@ -1,98 +1,96 @@
-!doctype html>
+<!doctype html>
 <html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proceso de Creación de productos multimedia</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <header class="col-12">
-                <h1 class="text-center">Proceso de Creación de productos multimedia</h1>
+<body class="bg-light">
+    <div class="container my-4">
+        <div class="row mb-4">
+            <header class="col-12 custom-header shadow-sm rounded">
+                <h1 class="text-center m-0">Proceso de Creación de productos multimedia</h1>
             </header>
         </div>
+
         <div class="row">
-            <nav class="col-2 fixed-top">
-                <ul>
-                    <li>
-                        <a class="btn btn-primary" href="#investigación" role="button">Investigación</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#brief" role="button">Brief</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#concepto grafico" role="button">Concepto grafico</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#idea" role="button">Idea</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#portafolio" role="button">Portafolio</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#sketch" role="button">Scketch</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#wireframe" role="button">Wireframe</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#mockup" role="button">Mockup</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-primary" href="#prototipo" role="button">Prototipo</a>
-                    </li>
+            <nav class="col-lg-2 col-md-3 sticky-top custom-nav rounded shadow-sm p-3"
+                style="top: 1rem; height: max-content;">
+                <ul class="list-unstyled m-0 d-flex flex-column gap-2">
+                    <li><a class="btn btn-custom w-100 text-start" href="#investigacion">Investigación</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#brief">Brief</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#concepto-grafico">Concepto gráfico</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#idea">Idea</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#Manual de marca">Manual de Marca</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#sketch">Sketch</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#wireframe">Wireframe</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#mockup">Mockup</a></li>
+                    <li><a class="btn btn-custom w-100 text-start" href="#prototipo">Prototipo</a></li>
                 </ul>
             </nav>
-            <section class="col-8">
-                <iframe src="investigacion paginas.pdf" frameborder="0" width="100%" height="800px"
-                    id="investigación"></iframe>
-                <iframe src="brief.pdf" frameborder="0" width="100%" height="800px" id="brief"></iframe>
-            </section>
-            <aside class="col-2">
-                <li>
-                    <h3>Exploración visual</h3>
-                </li>
-                <li>
-                    <h3>Recolección de información</h3>
-                </li>
-                <li>
-                    <h3>Planteamineto de la idea</h3>
-                </li>
-                <li>
-                    <h3>Concepto grafico creativo</h3>
-                </li>
-                <li>
-                    <h3>Producto multimedia</h3>
-                </li>
-                <li>
-                    <h3>Fase pre-producción</h3>
-                </li>
-                <li>
-                    <h3>Fase de producción</h3>
-                </li>
-                <li>
-                    <h3>Fase de post-producción</h3>
-                </li>
-                <li>
-                    <h3>Fase de prtototipo</h3>
-                </li>
-                <li>
-                    <h3>Proyecto terminado</h3>
-                </li>
+
+            <div class="col-lg-7 col-md-9 d-flex flex-column gap-4">
+                <section class="w-100">
+                    <iframe src="investigacion paginas.pdf" class="custom-iframe shadow-sm mb-4"
+                        id="investigacion"></iframe>
+                    <iframe src="brief.pdf" class="custom-iframe shadow-sm" id="brief"></iframe>
+                </section>
+
+                <section class="w-100">
+                    <iframe src="mockap.pdf" class="custom-iframe shadow-sm mb-4" id="mockup"></iframe>
+                </section>
+                <section class="w-100">
+                    <iframe src="jp produccions 2.pdf" class="custom-iframe shadow-sm mb-4" id="Manual de marca"></iframe>
+                </section>
+                <section class="w-100">
+                    <iframe src="dibujos .pdf" class="custom-iframe shadow-sm mb-4" id="sketch"></iframe>
+                </section>
+            </div>
+
+            <aside class="col-lg-3 col-md-12 mt-4 mt-lg-0">
+                <div class="custom-aside rounded shadow-sm p-4 sticky-top" style="top: 1rem;">
+                    <ul class="list-unstyled m-0 d-flex flex-column gap-3">
+                        <li>
+                            <h3 class="h6 m-0">Exploración visual</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Recolección de información</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Planteamiento de la idea</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Concepto gráfico creativo</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Producto multimedia</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Fase pre-producción</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Fase de producción</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Fase de post-producción</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Fase de prototipo</h3>
+                        </li>
+                        <li>
+                            <h3 class="h6 m-0">Proyecto terminado</h3>
+                        </li>
+                    </ul>
+                </div>
             </aside>
         </div>
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
